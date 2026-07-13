@@ -23,6 +23,10 @@ public with sharing class TriggerDispatcher {
             }
         }
     }
+
+    public static void t1method(){
+        
+    }
     
     private static void processRecord(String HandlerClassName){
         Type handlerType = Type.forName(HandlerClassName);
