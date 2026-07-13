@@ -33,10 +33,10 @@ public with sharing class TriggerDispatcher {
     public static void t3method(){
         
     }
-    public static void t4method(){
+    public static void t5method(){
         
     }
-    public static void t5method(){
+    public static void t6method(){
         
     }
     private static void processRecord(String HandlerClassName){
