@@ -27,7 +27,9 @@ public with sharing class TriggerDispatcher {
     public static void t1method(){
         
     }
-    
+    public static void t2method(){
+        
+    }
     private static void processRecord(String HandlerClassName){
         Type handlerType = Type.forName(HandlerClassName);
         TriggerInterface handler = (TriggerInterface)handlerType.newInstance();
